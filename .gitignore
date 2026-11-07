@@ -1,0 +1,13 @@
+# Editores y sistema
+*~
+*.swp
+.vscode/
+.idea/
+.DS_Store
+
+# Rust
+target/
+
+# Go (corchd): binario compilado dentro de la carpeta
+/corchd/corchd
+*.test

@@ -1,0 +1,13 @@
+[package]
+name = "cdevd"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+cosmic-core = { workspace = true }
+nix = { workspace = true }
+log = { workspace = true }
+env_logger = { workspace = true }
